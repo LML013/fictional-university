@@ -1,2 +1,27 @@
 [02-Feb-2021 20:44:03 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 5
 [02-Feb-2021 21:18:13 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 18
+[04-Feb-2021 06:24:36 UTC] PHP Parse error:  syntax error, unexpected '=' in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 20
+[04-Feb-2021 06:27:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 21 and exactly 1 expected in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-includes\post.php:7204
+Stack trace:
+#0 C:\Users\LML013\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(21): wp_get_post_parent_id()
+#1 C:\Users\LML013\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\LML013...')
+#2 C:\Users\LML013\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\LML013...')
+#3 C:\Users\LML013\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\LML013...')
+#4 {main}
+  thrown in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-includes\post.php on line 7204
+[04-Feb-2021 06:27:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 21 and exactly 1 expected in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-includes\post.php:7204
+Stack trace:
+#0 C:\Users\LML013\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(21): wp_get_post_parent_id()
+#1 C:\Users\LML013\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\LML013...')
+#2 C:\Users\LML013\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\LML013...')
+#3 C:\Users\LML013\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\LML013...')
+#4 {main}
+  thrown in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-includes\post.php on line 7204
+[04-Feb-2021 06:28:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 20 and exactly 1 expected in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-includes\post.php:7204
+Stack trace:
+#0 C:\Users\LML013\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(20): wp_get_post_parent_id()
+#1 C:\Users\LML013\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\LML013...')
+#2 C:\Users\LML013\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\LML013...')
+#3 C:\Users\LML013\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\LML013...')
+#4 {main}
+  thrown in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-includes\post.php on line 7204
