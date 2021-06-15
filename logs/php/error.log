@@ -26,3 +26,10 @@ Stack trace:
 #4 {main}
   thrown in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-includes\post.php on line 7204
 [10-Feb-2021 19:12:18 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\LML013\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 37
+[15-Jun-2021 06:54:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function hve_posts() in C:\Users\LuisM\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:17
+Stack trace:
+#0 C:\Users\LuisM\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\LuisM\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\LuisM\\...')
+#2 C:\Users\LuisM\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\LuisM\\...')
+#3 {main}
+  thrown in C:\Users\LuisM\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 17
